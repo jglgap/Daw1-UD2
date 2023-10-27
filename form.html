@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <form action="process.php" method="get">
+        <label for="name">name</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="pwd">Password:</label>
+        <input type="password" name="pwd" id="pwd">
+        <input type="submit" value="submit">
+    </form>
+    <form action="submit.php" method="post">
+        <fieldset>
+            <legend>Favorite color</legend>
+            <input type="radio" name="color" id="red"  value="red">
+            <label for="red">Red</label>
+            <input type="radio" name="color" id="blue" value="blue">
+            <label for="blue">Blue</label>
+            <input type="radio" name="color" id="green" value="green">
+            <label for="green">Green</label>
+        </fieldset>
+        <fieldset>
+            <legend>Communication ways</legend>
+            <input type="checkbox" name="email" id="email" >
+            <label for="email">E-Mail</label>
+            <input type="checkbox" name="mail" id="mail">
+            <label for="mail">Mail</label>
+            <input type="checkbox" name="phone" id="phone">
+            <label for="phone">phone</label>
+        </fieldset>
+        <input type="submit" value="submit">
+    
+
+    <hr>
+
+    <h2>Nationality</h2>
+
+    <label for="nationality">Select nationality:</label>
+    <select name="nationality" id="nationality">
+        <option value="spanish">spanish</option>
+        <option value="french">french</option>
+        <option value="british">british</option>
+        <option value="german">german</option>
+    </select>
+    <input type="submit" value="submit">
+    <hr>
+
+    <label for="comment">Put your comment:</label>
+    <textarea name="comment" id="comment" cols="50" rows="5"></textarea>
+</form>
+</head>
+<body>
+    
+</body>
+</html>

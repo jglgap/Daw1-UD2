@@ -1,0 +1,37 @@
+h1{
+    background-color: cornflowerblue;
+    color: darksalmon;
+    font-family: 'Oswald', sans-serif;
+    padding: 1.5em;
+
+}
+p{
+    background-color: #C6C5F7;
+    border-radius: 5px; 
+    padding: 1em;
+}
+#especial{
+    background-color: #62F6F7;
+    color: brown;
+}
+#other{
+    background-color: #FA5024;
+    color: #C6C5F7;
+}
+.city{
+    background-color: cyan;
+    color: fuchsia;
+}
+
+a:link{
+    color: blue;
+} 
+a:visited{
+    color: crimson;
+}
+a:hover{
+        color: chartreuse;
+}
+a:click{
+    color:darkgoldenrod;
+}
